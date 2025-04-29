@@ -16,7 +16,7 @@ To begin, in your command prompt, run:
 ```
 npm install
 ```
-This will install all of the dependencies, most notably Vite and React. 
+This will install all of the dependencies, most notably [Vite](https://vite.dev/) and [React](https://react.dev/). 
 
 Next, fill out the relevant information. In `supabase-client.ts` put the URL supabase gives you, in `vite.config.ts`, you'll need to add your website's URL or localhost address. In `.env` you'll need your [Supabase](https://supabase.com/) anon key.
 
