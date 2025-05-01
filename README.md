@@ -10,7 +10,7 @@ First take a look at the project license and ensure the neccesary attributions. 
 [Node.js](https://nodejs.org/en)
 
 [Supabase](https://supabase.com/) (To host your database)
-I'm not going to step by step but you must set up the different tables in Supabase (I.e posts, comments, profiles) and configure the RLS. You can find tutorials online, and obvioulsy using your own database service is feasible, but would require major reworking, specifically regarding authentacation considering that we use Supabase to sign in with it's authentaciation providers (I.e Google, Discord). I highly reccomend Supabase, in general.  
+I'm not going to step by step but you must set up the different tables in Supabase (I.e posts, comments, profiles) and configure the RLS. You can find tutorials online, and obviously using your own database service is feasible, but would require major reworking, specifically regarding authentacation considering that we use Supabase to sign in with it's authentaciation providers (I.e Google, Discord). I highly reccomend Supabase, in general.  
 
 To begin, in your command prompt, run:
 ```
