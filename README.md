@@ -26,13 +26,13 @@ Finally, run:
 npm run dev
 ```
 
-This will host it to localhost for testing. You can use [Cloudfare](https://www.cloudflare.com/) or an alternative to tunnel that to a public domain, and I also won't go in depth on that, but you'll want to build it first:
+This will host it to localhost for testing. You can use [Cloudflare](https://www.cloudflare.com/) or an alternative to tunnel that to a public domain, and I also won't go in depth on that, but you'll want to build it first:
 
 ```
 npm run build
 ```
 
-and then 
+and then (once cloudflare is configured) 
 
 ```
 npx serve dist --listen 5173
