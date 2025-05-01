@@ -32,8 +32,9 @@ This will host it to localhost for testing. You can use [Cloudflare](https://www
 npm run build
 ```
 
-and then (once cloudflare is configured) 
+and then
 
 ```
 npx serve dist --listen 5173
 ```
+
